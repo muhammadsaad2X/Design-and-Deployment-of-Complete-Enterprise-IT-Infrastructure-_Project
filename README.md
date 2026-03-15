@@ -1,0 +1,2 @@
+# Design-and-Deployment-of-Complete-Enterprise-IT-Infrastructure-_Project
+This project demonstrates an enterprise IT infrastructure lab built using VMware Workstation Pro. It includes Windows Server 2019 with two Domain Controllers, Active Directory, DNS, DHCP, Windows Admin Center, VPN (RRAS + NAT), Storage Pools, File Server, and DFS. The setup provides centralized management, secure access, and reliable services. 
