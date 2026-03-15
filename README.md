@@ -1,9 +1,19 @@
 # Design-and-Deployment-of-Complete-Enterprise-IT-Infrastructure-Project
+## Project Type
+Self-Implemented Home Lab Project
 
+## Training Reference
+Concepts and hands-on practice learned during (System Administrator Course) at MRGT Institute.
 ## Project Overview
-This project demonstrates the design and implementation of a complete enterprise IT infrastructure for Contoso Company. The infrastructure was built using **VMware Workstation Pro**, **Windows Server 2019**, and **Windows 10** client machines. The main goals were to ensure **centralized management, secure communication, automated services, and high availability** for daily operations and future expansion.
+This project is an **enterprise IT infrastructure setup** for Contoso Company. It involved creating multiple virtual machines using VMware Workstation Pro, installing Windows Server 2019 Servers and Windows 10 clients for users, and configuring key services such as Active Directory Domain Services, DNS, DHCP, Certificate Services, File Servers with DFS replication, Admin center and a VPN server. The setup ensures centralized management, secure communication, automated services, and high availability for daily operations.
 
 ## Servers and Services Configured
+
+###  Window Admin Center 
+- **For Remotely Managed All server**
+  
+### Active Directory Domain service
+- **Centralized Management All Users**
 
 ### 1. Domain Controllers
 - **Primary Domain Controller (DC1)** and **Replica Domain Controller (DC2)**  
@@ -29,7 +39,7 @@ This project demonstrates the design and implementation of a complete enterprise
 - Deployed **Windows Admin Center** for centralized server management  
 - Monitored server health, services, and performance from a single interface
 
-### 6. Storage Infrastructure
+### 6. Storage + File server
 - Created **Storage Pools** with **Mirror Virtual Disks** (RAID 1)  
 - Configured **File Servers** for shared data  
 - Implemented **DFS Namespace and Replication** for redundancy and high availability
